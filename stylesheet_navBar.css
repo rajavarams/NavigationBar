@@ -1,0 +1,130 @@
+
+#mainMenu {
+    list-style: none;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    /*text-align: center;*/
+    /*height: 100px;
+    display: flex;*/
+}
+li {
+    display: inline-block;
+    margin: 0;
+}
+#searchCss{
+    height:20px;
+    width:100px;
+    display: inline-block;
+}
+#searchImg{
+    height:20px;
+    width:20px;
+    /*display: inline-block;*/
+    vertical-align: middle;
+    padding-left: 0;
+    margin-left: 0px;
+    filter: invert(100%); 
+    -webkit-filter: invert(100%);    
+}
+#shopCartImg{
+    height:20px;
+    width:20px;
+    /*display: inline-block;*/
+    vertical-align: middle;
+    padding-left: 0;
+    margin-left: 0px;
+    filter: invert(100%); 
+    -webkit-filter: invert(100%);
+}
+#logoCss {
+    background-color: red;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    font-size: 5vh;
+    font-family: Arial, Helvetica, sans-serif; 
+    height: 100px;  
+    width: 200px; 
+    vertical-align:middle;
+    text-align: center;
+    display: inline-block;
+    padding-top: 50px;
+    margin-left: 0;
+}
+li a{
+    list-style-type: none;
+    color: white;
+    font-weight: bold;
+    display: block;
+    text-decoration: none;
+    margin: 0 2vw;
+    font-size: 3vh;
+    font-family: Arial, Helvetica, sans-serif;
+    /*vertical-align: middle;*/
+    /*padding: 2vw;*/
+}
+li a:hover {
+    background-color:gray;
+}
+nav{
+    width: 100vw;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+#signInCss {
+    align-content: right;
+    /*display: inline-block;*/
+    vertical-align: middle;
+    /*font-size: 2vh;*/
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-weight: bold;
+    float: right;  
+    padding-top: 30px;
+}
+h1{
+    color: blue;
+    text-shadow: 2px 2px 4px red;
+}
+#para1 {
+
+    font-family: 'Akaya Telivigala', cursive;
+}
+#para2{
+    font-family: 'Akaya Telivigala', cursive;
+    font-family: 'Ballet', cursive;
+    font-family: 'DotGothic16', sans-serif;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 3vh;    
+ }
+
+ #animation1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    
+  }
+  
+  @keyframes example {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
